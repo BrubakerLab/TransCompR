@@ -3,7 +3,7 @@ Translatable Components Regression Methodology (https://www.science.org/doi/10.1
 
 ## Installation
 ```
-pip install transcompr
+pip install TransCompR
 ```
 
 ## Usage
