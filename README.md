@@ -9,8 +9,9 @@ pip install transcompr
 ## Usage
 ```
 from transcompr import TransCompR
+```
+```
 [transCompR_mdl, human_transComps, mouse_loadings, mouse_explained, mouse_scores] = TransCompR(human_data, human_classes, mouse_data)
-
 ```
 ### Input
 
@@ -24,9 +25,9 @@ from transcompr import TransCompR
 
 transCompR_mdl, human_transComps, mouse_loadings, mouse_explained, mouse_scores
 
-- **transCompR_mdl**: sklearn `LinearRegression model` Multivariate linear regression model of human patients' phenotypic labels regressed over human patients'score on mouse PCs
+- **transCompR_mdl**: sklearn `LinearRegression model` Multivariate linear regression model of human patients' phenotypic labels regressed over human patients' score on mouse PCs
 
-- **human_transComps**: numpy `array` human patients'score on mouse PCs.
+- **human_transComps**: numpy `array` human patients' score on mouse PCs.
 
 - **mouse_loadings**: numpy `array` loadings of mouse genes on mouse PCs.
 
