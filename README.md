@@ -8,7 +8,7 @@ pip install TransCompR
 
 ## Usage
 ```
-from transcompr import TransCompR
+from TransCompR import TransCompR
 ```
 ```
 [transCompR_mdl, human_transComps, mouse_loadings, mouse_explained, mouse_scores] = TransCompR(human_data, human_classes, mouse_data)
