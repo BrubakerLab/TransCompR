@@ -115,7 +115,7 @@ def loadings(results, pcs, top_n_genes = 20, save_path=None, return_figures=Fals
             raise ValueError("Invalid pcs argument.")
     
         if save_path is not None:
-            fig.savefig(save_path+'PC'+str(np.array(i)+1)+'.png')
+            fig.savefig(save_path+'Loadings_PC'+str(np.array(i)+1)+'.png')
 
     if return_figures:
         return figures
@@ -357,7 +357,7 @@ def partition(results,  metric = 'db', top_n_pcs = 5,pcs = None, save_path = Non
         figures.append(fig)
     
         if save_path is not None:
-            fig.savefig(save_path+'PC'+str(top_ids[i])+'.png')
+            fig.savefig(save_path+'Partition_PC'+str(int(str(top_ids[i]))+1)+'.png')
 
     if return_figures:
         return figures
