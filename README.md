@@ -50,7 +50,8 @@ To explore the `TransCompR` framework thoroughly, please see the details below.
 >- `human_covar`: pandas DataFrame of patients x categorical info (default: None). This function will automatically generate dummies, so dummy variables are not accepted.
 >- `n_pcs`: positive int, 'max' (default: 50). When 'max' is input, maximum number of PCs will be used.
 >- `hvg`: non-negative int (default: 0). When hvg = 0, all genes are used. Otherwise, top x genes with the largest residual in a mean-variance relationship regression will be used.
->
+>- `**kwargs`: Additional keywords pass to the sklearn.linear_model.LogisticRegression. See [sklearn documentation](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) for proper penalty and model selection.
+>- 
 >**Outputs**
 >
 >The function returns a dictionary `results` that contains the major outputs and information used in downstream analysis.
@@ -112,9 +113,17 @@ PC's performance in separating 2 classes is evaluated by one of the following 3 
 
   For example:
   ```
-  tr.plot.partition(results,  metric = 'db', top_n_pcs = 5, save_path = 'D://my_folder//figure'
+  tr.plot.partition(results,  metric = 'db', top_n_pcs = 5, save_path = 'D://my_folder//figure')
   ```
   ...will generate the Gaussian KDE filled plots of the top 5 PCs that can best separate the human classes based on Davies Bouldin Score and save the file to `'D://my_folder//figure'`
+
+  Or, when `pcs` are used:
+
+  ```
+  tr.plot.partition(results,  metric = 'db', pcs = [0,1,10], save_path = 'D://my_folder//figure')
+  ```
+  ...will generate the Gaussian KDE filled plots of PC1, PC2, and PC11, report Davies Bouldin Score, and save the figures to `'D://my_folder//figure'`
+  
 >> **Args:**
 >> 
 >> - **results(dict):** A dictionary containing the results of previous computations. Expected to contain the key `'predictivity_summary'` and `'human_transComps'`.
@@ -122,6 +131,8 @@ PC's performance in separating 2 classes is evaluated by one of the following 3 
 >> - **metric (str):** The metric to be used for selecting top principal components. Accepts `'db'`, `'coefs'`, `'indiv acc'`. Default is `'db'`.
 >>   
 >> - **top_n_pcs (int):** The top N principal components to be considered. Default is 5.
+>>
+>> - **pcs (list of int)**: When specified, the specific pc is plotted instead of top pcs. Please be awared that python indexing starts from 0, so [0] would plot the PC1 and [1] would plot the PC2.
 >> 
 >> - **save_path (str):** The directory path where generated figures should be saved. If None, figures will not be saved.
 >>   
@@ -149,6 +160,13 @@ PC's performance in separating 2 classes is evaluated by one of the following 3 
   ```
   ...will inquire the top 100 genes with largest positive loadings and top 100 genes with largest negative loadings in the 5 PCs that can best separate the human classes based on Davies Bouldin Score and save the file to `'D://my_folder//figure'`. The direction (which human class is more positive on the current PC) is determined from the mean PC score in each class and is annotated in each plots' title. Let's say on a PC on which healthy controls have more positive score than diseased patients, genes with the most positive loadings on this PC may has inverse correlation with disease activities. For each top PC, you will get two GSEA visualization, 1 for positive loadings genes' pathways, and 1 for negative loadings genes' pathways.
 
+ Or, when `pcs` are used:
+
+  ```
+ GESA_up_result, GESA_down_result = tr.plot.gsea(results, pcs = [0,1,10], save_path = 'D://my_folder//figure')
+  ```
+  ...the function will perform GSEA on the top 100 genes with largest positive loadings and top 100 genes with largest negative loadings in PC1, PC2, and PC11, and save the figures to `'D://my_folder//figure'`
+
 >> **Args:**
 >> 
 >> - **results(dict):** A dictionary containing the results of previous computations. Expected to contain the key `'predictivity_summary'` and `'human_transComps'`.
@@ -157,6 +175,8 @@ PC's performance in separating 2 classes is evaluated by one of the following 3 
 >>   
 >> - **top_n_pcs (int):** The top N principal components to be considered. Default is 5.
 >>
+>> - **pcs (list of int)**: When specified, the specific pc is plotted instead of top pcs. Please be awared that python indexing starts from 0, so [0] would plot the PC1 and [1] would plot the PC2.
+>> 
 >> - **top_n_genes (int):** The top N genes on both directions to be inquired in database for GSEA. Default is 100.
 >>
 >> - **n_go (int):** The number of gene ontology terms to consider. Default is 10.
@@ -176,4 +196,30 @@ PC's performance in separating 2 classes is evaluated by one of the following 3 
 >>   
 >> - **figures_down (list of matplotlib.figure.Figure, optional):** A list of figures shows the GSEA of negative loadings genes on PCs if return_figures is set to True. Otherwise, it doesn't return anything.
   
+#### **4. `plot.loadings`: visualize loadings of mouse genes on 1 (strip plot) or 2 (scatter plot) mouse principal components.**
 
+The numberic values of each genes' loadings can be found at `results['mouse_loadings']`(unsorted) and `results['predictivity_summary']['sorted_mouse_genes']`(sorted), this function provides a quick way to visualize gene loadings. For single PC, top N genes with the largest loadings on both direction are highlighted. For 2 PCs, top N genes with the the largest summation of the absolute values of 2 PCs are highlighted. 
+
+Example:
+```
+tr.plot.loadings(results, [1,[1,2]], top_n_genes = 10)
+```
+...will 1) generate a boxplot-stacked strip plot of gene loadings on PC2, with top 10 genes with the largest loadings on both direction highlighted and labeled; 2) generate a scatter plot on which PC2 is the x axis and PC 3 is the y axis, with top 10 genes with the the largest summation of the absolute values of 2 PCs highlighted.
+
+>> **Args:**
+>> 
+>> - **results(dict):** A dictionary containing the results of previous computations. Expected to contain the key `'predictivity_summary'` and `'human_transComps'`.
+>>   
+>> - **pcs (list of int)**: When specified, the specific pc is plotted instead of top pcs. Please be awared that python indexing starts from 0, so [0] would plot the PC1 and [1] would plot the PC2.
+>> 
+>> - **top_n_genes (int):** The top N genes on both directions to be inquired in database for GSEA. Default is 20.
+>> 
+>> - **save_path (str):** The directory path where generated figures should be saved. If None, figures will not be saved.
+>>   
+>> - **return_figures (bool):** If True, the figures generated by the function will be returned. Default is False.
+>>   
+>> - **kwargs (dict):** Additional keyword arguments to pass to the bar plot function.
+>>
+>> **Returns:**
+>>
+>> - **figures (list of matplotlib.figure.Figure, optional):** A list of figures if return_figures is set to True. Otherwise, it doesn't return anything.
