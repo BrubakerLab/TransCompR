@@ -117,7 +117,7 @@ PC's performance in separating 2 classes is evaluated by one of the following 3 
   ```
   ...will generate the Gaussian KDE filled plots of the top 5 PCs that can best separate the human classes based on Davies Bouldin Score and save the file to `'D://my_folder//figure'`
 
-  Or, when `pcs` are used:
+  Or, when `pcs` is used:
 
   ```
   tr.plot.partition(results,  metric = 'db', pcs = [0,1,10], save_path = 'D://my_folder//figure')
