@@ -17,7 +17,7 @@ def validate_dataframes(human_data, mouse_data, human_covar):
                  raise ValueError("Data must be a non-empty pandas DataFrame.")
                  
 def validate_hvg_and_pcs(hvg, n_pcs, mouse_data):
-     if not isinstance(hvg, int) or hvg < 0 or hvg > mouse_data.shape[1]:
+     if not isinstance(hvg, int) or isinstance(hvg, list) or hvg < 0 or hvg > mouse_data.shape[1]:
          raise ValueError("If you want to use HVG, please pass a positive integer that is less than the total number of genes in the dataset. Otherwise set hvg to zero.")
          
      if not (isinstance(n_pcs, int) and n_pcs > 0) and n_pcs != 'max':
