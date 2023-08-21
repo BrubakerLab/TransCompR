@@ -1,0 +1,95 @@
+Sample_title,Sample_geo_accession,Sample_source_name_ch1,Sample_organism_ch1,ethnicity,host gender,host age (yr),pathogen,anatomic site of infection,experimental batch
+blood patient with E. coli bacteremia [CS101-D00649.CEL],GSM824707,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Female,43,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia [D887.2.CEL],GSM824708,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,49,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia [CSD5036.CEL],GSM824709,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Female,44,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia [CSD2575.CEL],GSM824710,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,70,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia [D2341.CEL],GSM824711,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,40,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia [D2173.CEL],GSM824712,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,91,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia [D2033.CEL],GSM824713,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Female,25,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia [D5294.CEL],GSM824714,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,62,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia [D5459.CEL],GSM824715,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,70,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia [D8414.CEL],GSM824716,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Female,32,Escherichia coli,Urinary tract,2287
+blood patient with E. coli bacteremia [CS564-D8671.CEL],GSM824717,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,54,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia [CS593-D9156.CEL],GSM824718,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,74,Escherichia coli,Urinary tract,2034
+blood patient with E. coli bacteremia [F00210.CEL],GSM824719,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Female,79,Escherichia coli,Lung,2034
+blood patient with E. coli bacteremia [V355.CEL],GSM824720,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,41,Escherichia coli,Urinary tract,2287
+blood patient with S. aureus bacteremia [CSD4620.CEL],GSM824721,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,82,Staphylococcus aureus,Cardiac-Endocarditis,2034
+blood patient with S. aureus bacteremia [CS253-D3500.CEL],GSM824722,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,70,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia [CSD4396.CEL],GSM824723,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,41,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia [CSD4470.CEL],GSM824724,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,81,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia [CS439-D5657.CEL],GSM824725,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,81,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia [CS445-D5781.CEL],GSM824726,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,55,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia [CS453-D5936.CEL],GSM824727,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Female,69,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia [CS475-D6291.CEL],GSM824728,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Female,44,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia [F00611.CEL],GSM824729,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,51,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia [F00520.CEL],GSM824730,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,47,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia [F00506.CEL],GSM824731,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,36,Staphylococcus aureus,Cardiac,2034
+blood patient with S. aureus bacteremia [002-0159PAXGENEENR.CEL],GSM824732,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,54,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia [H785.CEL],GSM824733,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,55,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia [H638.CEL],GSM824734,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,42,Staphylococcus aureus,Unknown,2034
+blood patient with S. aureus bacteremia [002-0216ENRPAXGENE1.CEL],GSM824735,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,52,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia [H3229.CEL],GSM824736,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,55,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia [H3722.CEL],GSM824737,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,52,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia [H4129.CEL],GSM824738,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Unknown,Female,51,Staphylococcus aureus,Lung,2034
+blood patient with S. aureus bacteremia [002-040424HRSPAXGENE.CEL],GSM824739,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,40,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia [V943.CEL],GSM824740,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,60,Staphylococcus aureus,Skin,2034
+blood patient with S. aureus bacteremia [V674.CEL],GSM824741,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,59,Staphylococcus aureus,Vascular catheter,2287
+blood patient with S. aureus bacteremia [V738.CEL],GSM824742,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,58,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia [V710.CEL],GSM824743,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,77,Staphylococcus aureus,Urinary tract,2034
+blood patient with S. aureus bacteremia [002-0161PAXGENEENR.CEL],GSM824744,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,91,Staphylococcus aureus,Bone,2034
+blood patient with S. aureus bacteremia [H2534.CEL],GSM824745,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,75,Staphylococcus aureus,Vascular catheter,2034
+blood patient with S. aureus bacteremia [002-0415ENRPAXGENE.CEL],GSM824746,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,58,Staphylococcus aureus,vascular catheter,2034
+blood healthy control [DU09-01S00413.CEL],GSM824747,blood human NOT infected,Homo sapiens,Black,Male,27,-,-,2287
+blood healthy control [DU09-01S00446.CEL],GSM824748,blood human NOT infected,Homo sapiens,White,Female,24,-,-,2287
+blood healthy control [DU09-01S00407.CEL],GSM824749,blood human NOT infected,Homo sapiens,White,Female,29,-,-,2287
+blood healthy control [DU09-01S00421.CEL],GSM824750,blood human NOT infected,Homo sapiens,White,Male,26,-,-,2287
+blood healthy control [DU09-01S00415.CEL],GSM824751,blood human NOT infected,Homo sapiens,Asian,Male,30,-,-,2287
+blood healthy control [DU09-01S00427.CEL],GSM824752,blood human NOT infected,Homo sapiens,Black,Male,24,-,-,2287
+blood healthy control [DU09-01S00473.CEL],GSM824753,blood human NOT infected,Homo sapiens,White,Male,Unknown,-,-,2287
+blood healthy control [DU09-01S00433.CEL],GSM824754,blood human NOT infected,Homo sapiens,Asian,Male,24,-,-,2287
+blood healthy control [DU09-01S00785.CEL],GSM824755,blood human NOT infected,Homo sapiens,Asian,Male,23,-,-,2287
+blood healthy control [DU09-01S00633.CEL],GSM824756,blood human NOT infected,Homo sapiens,White,Female,50,-,-,2287
+blood healthy control [DU09-01S00779.CEL],GSM824757,blood human NOT infected,Homo sapiens,White,Female,23,-,-,2287
+blood healthy control [DU09-01S00928.CEL],GSM824758,blood human NOT infected,Homo sapiens,White,Female,24,-,-,2287
+blood healthy control [DU09-01S00538.CEL],GSM824759,blood human NOT infected,Homo sapiens,White,Male,44,-,-,2287
+blood healthy control [DU09-01S00563.CEL],GSM824760,blood human NOT infected,Homo sapiens,White,Female,24,-,-,2287
+blood healthy control [DU09-01S00691.CEL],GSM824761,blood human NOT infected,Homo sapiens,White,Female,28,-,-,2287
+blood healthy control [DU09-01S00971.CEL],GSM824762,blood human NOT infected,Homo sapiens,White,Male,26,-,-,2287
+blood healthy control [DU09-01S00671.CEL],GSM824763,blood human NOT infected,Homo sapiens,Asian,Female,30,-,-,2287
+blood healthy control [DU09-01S01164.CEL],GSM824764,blood human NOT infected,Homo sapiens,Black,Male,26,-,-,2287
+blood healthy control [DU09-01S00946.CEL],GSM824765,blood human NOT infected,Homo sapiens,White,Male,25,-,-,2287
+blood healthy control [DU09-01S00841.CEL],GSM824766,blood human NOT infected,Homo sapiens,White,Male,24,-,-,2287
+blood healthy control [DU09-01S01065.CEL],GSM824767,blood human NOT infected,Homo sapiens,White,Male,24,-,-,2287
+blood healthy control [DU09-01S01011.CEL],GSM824768,blood human NOT infected,Homo sapiens,Asian,Female,25,-,-,2287
+blood healthy control [DU09-01S01046.CEL],GSM824769,blood human NOT infected,Homo sapiens,Black,Female,24,-,-,2287
+blood healthy control [DU09-01S00627.CEL],GSM824770,blood human NOT infected,Homo sapiens,White,Female,43,-,-,2287
+blood healthy control [DU09-01S00835.CEL],GSM824771,blood human NOT infected,Homo sapiens,White,Female,26,-,-,2287
+blood healthy control [DU09-01S00588.CEL],GSM824772,blood human NOT infected,Homo sapiens,Black,Male,59,-,-,2287
+blood healthy control [DU09-01S00601.CEL],GSM824773,blood human NOT infected,Homo sapiens,Black,Female,25,-,-,2287
+blood healthy control [DU09-01S00652.CEL],GSM824774,blood human NOT infected,Homo sapiens,White,Male,24,-,-,2287
+blood healthy control [DU09-01S00798.CEL],GSM824775,blood human NOT infected,Homo sapiens,White,Male,25,-,-,2287
+blood healthy control [DU09-01S00822.CEL],GSM824776,blood human NOT infected,Homo sapiens,White,Male,26,-,-,2287
+blood healthy control [DU09-01S00810.CEL],GSM824777,blood human NOT infected,Homo sapiens,White,Male,24,-,-,2287
+blood healthy control [DU09-01S01017.CEL],GSM824778,blood human NOT infected,Homo sapiens,White,Male,26,-,-,2287
+blood healthy control [DU09-01S00995.CEL],GSM824779,blood human NOT infected,Homo sapiens,Unknown,Male,25,-,-,2287
+blood healthy control [DU09-01S00735.CEL],GSM824780,blood human NOT infected,Homo sapiens,White,Female,53,-,-,2287
+blood healthy control [DU09-01S01091.CEL],GSM824781,blood human NOT infected,Homo sapiens,Black,Female,45,-,-,2287
+blood healthy control [DU09-01S01235.CEL],GSM824782,blood human NOT infected,Homo sapiens,White,Male,23,-,-,2287
+blood healthy control [DU09-01S01128.CEL],GSM824783,blood human NOT infected,Homo sapiens,White,Female,26,-,-,2287
+blood healthy control [DU09-01S01122.CEL],GSM824784,blood human NOT infected,Homo sapiens,White,Male,27,-,-,2287
+blood healthy control [DU09-01S01183.CEL],GSM824785,blood human NOT infected,Homo sapiens,Asian,Female,43,-,-,2287
+blood healthy control [DU09-01S01241.CEL],GSM824786,blood human NOT infected,Homo sapiens,Black,Female,32,-,-,2287
+blood healthy control [DU09-01S01246.CEL],GSM824787,blood human NOT infected,Homo sapiens,Unknown,Female,25,-,-,2287
+blood healthy control [DU09-01S01276.CEL],GSM824788,blood human NOT infected,Homo sapiens,Black,Female,43,-,-,2287
+blood healthy control [DU09-01S01271.CEL],GSM824790,blood human NOT infected,Homo sapiens,White,Female,42,-,-,2287
+blood patient with S. aureus bacteremia [F02098],GSM932374,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,52,Staphylococcus aureus and Streptococcus pneumoniae,lung,2034
+blood patient with S. aureus bacteremia [F01541],GSM932375,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,38,Staphylococcus aureus,cardiac,2034
+blood patient with S. aureus bacteremia [CS127-D00256],GSM932376,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,24,Staphylococcus aureus,urinary tract,2287
+blood patient with S. aureus bacteremia [DU09-03S92423],GSM932377,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,74,Staphylococcus aureus,Skin or Skin Structure,2739
+blood patient with S. aureus bacteremia [DU09-03S93303],GSM932378,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Male,70,Staphylococcus aureus,Skin or Skin Structure,2739
+blood patient with S. aureus bacteremia [DU09-03S95905],GSM932379,blood patient with S. aureus bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,61,Staphylococcus aureus,CNS,2739
+blood patient with E. coli bacteremia [DU09-03S96738],GSM932380,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Male,65,Escherichia coli,Urinary Tract,2739
+blood patient with E. coli bacteremia [DU09-03S07915],GSM932381,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,63,Escherichia coli,Urinary Tract,2739
+blood patient with E. coli bacteremia [DU10-01S02093],GSM932382,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,81,Escherichia coli,Urinary Tract,2739
+blood patient with E. coli bacteremia [DU10-01S03145],GSM932383,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,Black,Female,69,Escherichia coli,Urinary Tract,2739
+blood patient with E. coli bacteremia [DU10-01S06732],GSM932384,blood patient with E. coli bacteremia prior antibiotic treatment (Emergency Department),Homo sapiens,White,Female,55,Escherichia coli,Urinary Tract,2739
